@@ -1,0 +1,16 @@
+<p>delivery works!</p>
+<h2>{{ title }}</h2>
+<table border="1" cellpadding="5">
+  <tr>
+    <th>Order ID</th>
+    <th>Product</th>
+    <th>Status</th>
+    <th>Expected Delivery</th>
+  </tr>
+  <tr *ngFor="let d of deliveries">
+    <td>{{ d.orderId }}</td>
+    <td>{{ d.product }}</td>
+    <td>{{ d.status }}</td>
+    <td>{{ d.expectedDate }}</td>
+  </tr>
+</table>

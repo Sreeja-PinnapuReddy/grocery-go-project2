@@ -1,0 +1,21 @@
+h2 {
+  color: darkgreen;
+}
+table {
+  width: 80%;
+  margin-top: 10px;
+}
+th {
+  background-color: lightgray;
+}
+td {
+  text-align: center;
+}
+button {
+  margin-top: 10px;
+  background-color: darkgreen;
+  color: white;
+  padding: 5px 10px;
+  border: none;
+  cursor: pointer;
+}

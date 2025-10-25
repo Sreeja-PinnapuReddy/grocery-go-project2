@@ -1,0 +1,15 @@
+h2 {
+  color: darkred;
+}
+input, textarea, select {
+  padding: 5px;
+  margin: 5px 0;
+  width: 200px;
+}
+button {
+  background-color: darkred;
+  color: white;
+  padding: 5px 10px;
+  border: none;
+  cursor: pointer;
+}

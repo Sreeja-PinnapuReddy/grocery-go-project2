@@ -1,0 +1,16 @@
+<h2>{{ title }}</h2>
+<p>Manage Products:</p>
+<table border="1" cellpadding="5">
+  <tr>
+    <th>ID</th>
+    <th>Name</th>
+    <th>Price</th>
+    <th>Category</th>
+  </tr>
+  <tr *ngFor="let product of products">
+    <td>{{ product.id }}</td>
+    <td>{{ product.name }}</td>
+    <td>{{ product.price }}</td>
+    <td>{{ product.category }}</td>
+  </tr>
+</table>

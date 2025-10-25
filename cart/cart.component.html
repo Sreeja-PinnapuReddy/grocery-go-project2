@@ -1,0 +1,18 @@
+<p>cart works!</p>
+<h2>{{ title }}</h2>
+<table border="1" cellpadding="5">
+  <tr>
+    <th>Item</th>
+    <th>Price</th>
+    <th>Quantity</th>
+    <th>Total</th>
+  </tr>
+  <tr *ngFor="let item of cartItems">
+    <td>{{ item.name }}</td>
+    <td>{{ item.price }}</td>
+    <td>{{ item.quantity }}</td>
+    <td>{{ item.price * item.quantity }}</td>
+  </tr>
+</table>
+<p><strong>Total Price: ₹{{ getTotal() }}</strong></p>
+<button>Proceed to Checkout</button>

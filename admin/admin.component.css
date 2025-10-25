@@ -1,0 +1,13 @@
+h2 {
+  color: darkblue;
+}
+table {
+  width: 80%;
+  margin-top: 10px;
+}
+th {
+  background-color: lightgray;
+}
+td {
+  text-align: center;
+}
